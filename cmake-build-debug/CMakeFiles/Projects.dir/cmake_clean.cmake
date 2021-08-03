@@ -1,5 +1,11 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Projects.dir/Memory-Management.c.o"
+  "CMakeFiles/Projects.dir/Pointers.c.o"
+  "CMakeFiles/Projects.dir/Structures.c.o"
+  "CMakeFiles/Projects.dir/System-Calls.c.o"
+  "CMakeFiles/Projects.dir/bit-fields.c.o"
   "CMakeFiles/Projects.dir/library.c.o"
+  "CMakeFiles/Projects.dir/whats-poppin.c.o"
   "libProjects.a"
   "libProjects.pdb"
 )

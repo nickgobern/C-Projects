@@ -1,2 +1,2 @@
-/usr/bin/ar qc libProjects.a CMakeFiles/Projects.dir/library.c.o
+/usr/bin/ar qc libProjects.a CMakeFiles/Projects.dir/library.c.o CMakeFiles/Projects.dir/whats-poppin.c.o CMakeFiles/Projects.dir/Pointers.c.o CMakeFiles/Projects.dir/Structures.c.o CMakeFiles/Projects.dir/bit-fields.c.o CMakeFiles/Projects.dir/Memory-Management.c.o CMakeFiles/Projects.dir/System-Calls.c.o
 /usr/bin/ranlib libProjects.a

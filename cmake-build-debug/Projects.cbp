@@ -78,10 +78,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ubuntu/CLionProjects/Projects/Memory-Management.c">
+			<Option target="Projects"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/CLionProjects/Projects/Pointers.c">
+			<Option target="Projects"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/CLionProjects/Projects/Structures.c">
+			<Option target="Projects"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/CLionProjects/Projects/System-Calls.c">
+			<Option target="Projects"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/CLionProjects/Projects/bit-fields.c">
+			<Option target="Projects"/>
+		</Unit>
 		<Unit filename="/home/ubuntu/CLionProjects/Projects/library.c">
 			<Option target="Projects"/>
 		</Unit>
 		<Unit filename="/home/ubuntu/CLionProjects/Projects/library.h">
+			<Option target="Projects"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/CLionProjects/Projects/whats-poppin.c">
 			<Option target="Projects"/>
 		</Unit>
 		<Unit filename="/home/ubuntu/CLionProjects/Projects/CMakeLists.txt">

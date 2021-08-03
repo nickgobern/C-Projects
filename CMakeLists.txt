@@ -3,4 +3,4 @@ project(Projects C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_library(Projects library.c)
+add_library(Projects library.c whats-poppin.c Pointers.c Structures.c bit-fields.c Memory-Management.c System-Calls.c)

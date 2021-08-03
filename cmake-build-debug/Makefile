@@ -129,6 +129,126 @@ Projects/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/build
 .PHONY : Projects/fast
 
+Memory-Management.o: Memory-Management.c.o
+.PHONY : Memory-Management.o
+
+# target to build an object file
+Memory-Management.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/Memory-Management.c.o
+.PHONY : Memory-Management.c.o
+
+Memory-Management.i: Memory-Management.c.i
+.PHONY : Memory-Management.i
+
+# target to preprocess a source file
+Memory-Management.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/Memory-Management.c.i
+.PHONY : Memory-Management.c.i
+
+Memory-Management.s: Memory-Management.c.s
+.PHONY : Memory-Management.s
+
+# target to generate assembly for a file
+Memory-Management.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/Memory-Management.c.s
+.PHONY : Memory-Management.c.s
+
+Pointers.o: Pointers.c.o
+.PHONY : Pointers.o
+
+# target to build an object file
+Pointers.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/Pointers.c.o
+.PHONY : Pointers.c.o
+
+Pointers.i: Pointers.c.i
+.PHONY : Pointers.i
+
+# target to preprocess a source file
+Pointers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/Pointers.c.i
+.PHONY : Pointers.c.i
+
+Pointers.s: Pointers.c.s
+.PHONY : Pointers.s
+
+# target to generate assembly for a file
+Pointers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/Pointers.c.s
+.PHONY : Pointers.c.s
+
+Structures.o: Structures.c.o
+.PHONY : Structures.o
+
+# target to build an object file
+Structures.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/Structures.c.o
+.PHONY : Structures.c.o
+
+Structures.i: Structures.c.i
+.PHONY : Structures.i
+
+# target to preprocess a source file
+Structures.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/Structures.c.i
+.PHONY : Structures.c.i
+
+Structures.s: Structures.c.s
+.PHONY : Structures.s
+
+# target to generate assembly for a file
+Structures.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/Structures.c.s
+.PHONY : Structures.c.s
+
+System-Calls.o: System-Calls.c.o
+.PHONY : System-Calls.o
+
+# target to build an object file
+System-Calls.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/System-Calls.c.o
+.PHONY : System-Calls.c.o
+
+System-Calls.i: System-Calls.c.i
+.PHONY : System-Calls.i
+
+# target to preprocess a source file
+System-Calls.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/System-Calls.c.i
+.PHONY : System-Calls.c.i
+
+System-Calls.s: System-Calls.c.s
+.PHONY : System-Calls.s
+
+# target to generate assembly for a file
+System-Calls.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/System-Calls.c.s
+.PHONY : System-Calls.c.s
+
+bit-fields.o: bit-fields.c.o
+.PHONY : bit-fields.o
+
+# target to build an object file
+bit-fields.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/bit-fields.c.o
+.PHONY : bit-fields.c.o
+
+bit-fields.i: bit-fields.c.i
+.PHONY : bit-fields.i
+
+# target to preprocess a source file
+bit-fields.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/bit-fields.c.i
+.PHONY : bit-fields.c.i
+
+bit-fields.s: bit-fields.c.s
+.PHONY : bit-fields.s
+
+# target to generate assembly for a file
+bit-fields.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/bit-fields.c.s
+.PHONY : bit-fields.c.s
+
 library.o: library.c.o
 .PHONY : library.o
 
@@ -153,6 +273,30 @@ library.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/library.c.s
 .PHONY : library.c.s
 
+whats-poppin.o: whats-poppin.c.o
+.PHONY : whats-poppin.o
+
+# target to build an object file
+whats-poppin.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/whats-poppin.c.o
+.PHONY : whats-poppin.c.o
+
+whats-poppin.i: whats-poppin.c.i
+.PHONY : whats-poppin.i
+
+# target to preprocess a source file
+whats-poppin.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/whats-poppin.c.i
+.PHONY : whats-poppin.c.i
+
+whats-poppin.s: whats-poppin.c.s
+.PHONY : whats-poppin.s
+
+# target to generate assembly for a file
+whats-poppin.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/whats-poppin.c.s
+.PHONY : whats-poppin.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +306,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Projects"
+	@echo "... Memory-Management.o"
+	@echo "... Memory-Management.i"
+	@echo "... Memory-Management.s"
+	@echo "... Pointers.o"
+	@echo "... Pointers.i"
+	@echo "... Pointers.s"
+	@echo "... Structures.o"
+	@echo "... Structures.i"
+	@echo "... Structures.s"
+	@echo "... System-Calls.o"
+	@echo "... System-Calls.i"
+	@echo "... System-Calls.s"
+	@echo "... bit-fields.o"
+	@echo "... bit-fields.i"
+	@echo "... bit-fields.s"
 	@echo "... library.o"
 	@echo "... library.i"
 	@echo "... library.s"
+	@echo "... whats-poppin.o"
+	@echo "... whats-poppin.i"
+	@echo "... whats-poppin.s"
 .PHONY : help
 
 
