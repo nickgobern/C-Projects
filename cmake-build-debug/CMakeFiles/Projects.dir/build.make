@@ -157,6 +157,19 @@ CMakeFiles/Projects.dir/System-Calls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projects.dir/System-Calls.c.s"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/CLionProjects/Projects/System-Calls.c -o CMakeFiles/Projects.dir/System-Calls.c.s
 
+CMakeFiles/Projects.dir/Networking.c.o: CMakeFiles/Projects.dir/flags.make
+CMakeFiles/Projects.dir/Networking.c.o: ../Networking.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Projects.dir/Networking.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Projects.dir/Networking.c.o -c /home/ubuntu/CLionProjects/Projects/Networking.c
+
+CMakeFiles/Projects.dir/Networking.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projects.dir/Networking.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/CLionProjects/Projects/Networking.c > CMakeFiles/Projects.dir/Networking.c.i
+
+CMakeFiles/Projects.dir/Networking.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projects.dir/Networking.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/CLionProjects/Projects/Networking.c -o CMakeFiles/Projects.dir/Networking.c.s
+
 # Object files for target Projects
 Projects_OBJECTS = \
 "CMakeFiles/Projects.dir/library.c.o" \
@@ -165,7 +178,8 @@ Projects_OBJECTS = \
 "CMakeFiles/Projects.dir/Structures.c.o" \
 "CMakeFiles/Projects.dir/bit-fields.c.o" \
 "CMakeFiles/Projects.dir/Memory-Management.c.o" \
-"CMakeFiles/Projects.dir/System-Calls.c.o"
+"CMakeFiles/Projects.dir/System-Calls.c.o" \
+"CMakeFiles/Projects.dir/Networking.c.o"
 
 # External object files for target Projects
 Projects_EXTERNAL_OBJECTS =
@@ -177,9 +191,10 @@ libProjects.a: CMakeFiles/Projects.dir/Structures.c.o
 libProjects.a: CMakeFiles/Projects.dir/bit-fields.c.o
 libProjects.a: CMakeFiles/Projects.dir/Memory-Management.c.o
 libProjects.a: CMakeFiles/Projects.dir/System-Calls.c.o
+libProjects.a: CMakeFiles/Projects.dir/Networking.c.o
 libProjects.a: CMakeFiles/Projects.dir/build.make
 libProjects.a: CMakeFiles/Projects.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libProjects.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C static library libProjects.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Projects.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Projects.dir/link.txt --verbose=$(VERBOSE)
 

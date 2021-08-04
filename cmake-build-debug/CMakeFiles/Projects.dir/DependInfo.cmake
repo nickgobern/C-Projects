@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/ubuntu/CLionProjects/Projects/Memory-Management.c" "/home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles/Projects.dir/Memory-Management.c.o"
+  "/home/ubuntu/CLionProjects/Projects/Networking.c" "/home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles/Projects.dir/Networking.c.o"
   "/home/ubuntu/CLionProjects/Projects/Pointers.c" "/home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles/Projects.dir/Pointers.c.o"
   "/home/ubuntu/CLionProjects/Projects/Structures.c" "/home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles/Projects.dir/Structures.c.o"
   "/home/ubuntu/CLionProjects/Projects/System-Calls.c" "/home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles/Projects.dir/System-Calls.c.o"

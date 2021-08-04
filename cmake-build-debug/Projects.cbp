@@ -81,6 +81,9 @@
 		<Unit filename="/home/ubuntu/CLionProjects/Projects/Memory-Management.c">
 			<Option target="Projects"/>
 		</Unit>
+		<Unit filename="/home/ubuntu/CLionProjects/Projects/Networking.c">
+			<Option target="Projects"/>
+		</Unit>
 		<Unit filename="/home/ubuntu/CLionProjects/Projects/Pointers.c">
 			<Option target="Projects"/>
 		</Unit>

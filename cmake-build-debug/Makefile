@@ -153,6 +153,30 @@ Memory-Management.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/Memory-Management.c.s
 .PHONY : Memory-Management.c.s
 
+Networking.o: Networking.c.o
+.PHONY : Networking.o
+
+# target to build an object file
+Networking.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/Networking.c.o
+.PHONY : Networking.c.o
+
+Networking.i: Networking.c.i
+.PHONY : Networking.i
+
+# target to preprocess a source file
+Networking.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/Networking.c.i
+.PHONY : Networking.c.i
+
+Networking.s: Networking.c.s
+.PHONY : Networking.s
+
+# target to generate assembly for a file
+Networking.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/Networking.c.s
+.PHONY : Networking.c.s
+
 Pointers.o: Pointers.c.o
 .PHONY : Pointers.o
 
@@ -309,6 +333,9 @@ help:
 	@echo "... Memory-Management.o"
 	@echo "... Memory-Management.i"
 	@echo "... Memory-Management.s"
+	@echo "... Networking.o"
+	@echo "... Networking.i"
+	@echo "... Networking.s"
 	@echo "... Pointers.o"
 	@echo "... Pointers.i"
 	@echo "... Pointers.s"
