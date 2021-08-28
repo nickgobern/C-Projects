@@ -54,10 +54,10 @@ RM = /snap/clion/162/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/CLionProjects/Projects
+CMAKE_SOURCE_DIR = /home/vader/CLionProjects/C-Projects
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/CLionProjects/Projects/cmake-build-debug
+CMAKE_BINARY_DIR = /home/vader/CLionProjects/C-Projects/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/Projects.dir/clean
 CMakeFiles/Projects.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target Projects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vader/CLionProjects/C-Projects/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target Projects"
 .PHONY : CMakeFiles/Projects.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Projects.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vader/CLionProjects/C-Projects/cmake-build-debug/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Projects.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vader/CLionProjects/C-Projects/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Projects.dir/rule
 
 # Convenience name for target.

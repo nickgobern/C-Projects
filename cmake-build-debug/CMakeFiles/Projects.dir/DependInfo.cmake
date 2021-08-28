@@ -8,14 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ubuntu/CLionProjects/Projects/Memory-Management.c" "/home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles/Projects.dir/Memory-Management.c.o"
-  "/home/ubuntu/CLionProjects/Projects/Networking.c" "/home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles/Projects.dir/Networking.c.o"
-  "/home/ubuntu/CLionProjects/Projects/Pointers.c" "/home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles/Projects.dir/Pointers.c.o"
-  "/home/ubuntu/CLionProjects/Projects/Structures.c" "/home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles/Projects.dir/Structures.c.o"
-  "/home/ubuntu/CLionProjects/Projects/System-Calls.c" "/home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles/Projects.dir/System-Calls.c.o"
-  "/home/ubuntu/CLionProjects/Projects/bit-fields.c" "/home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles/Projects.dir/bit-fields.c.o"
-  "/home/ubuntu/CLionProjects/Projects/library.c" "/home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles/Projects.dir/library.c.o"
-  "/home/ubuntu/CLionProjects/Projects/whats-poppin.c" "/home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles/Projects.dir/whats-poppin.c.o"
+  "/home/vader/CLionProjects/C-Projects/Memory-Management.c" "/home/vader/CLionProjects/C-Projects/cmake-build-debug/CMakeFiles/Projects.dir/Memory-Management.c.o"
+  "/home/vader/CLionProjects/C-Projects/Networking.c" "/home/vader/CLionProjects/C-Projects/cmake-build-debug/CMakeFiles/Projects.dir/Networking.c.o"
+  "/home/vader/CLionProjects/C-Projects/Pointers.c" "/home/vader/CLionProjects/C-Projects/cmake-build-debug/CMakeFiles/Projects.dir/Pointers.c.o"
+  "/home/vader/CLionProjects/C-Projects/Server_From_Scratch.c" "/home/vader/CLionProjects/C-Projects/cmake-build-debug/CMakeFiles/Projects.dir/Server_From_Scratch.c.o"
+  "/home/vader/CLionProjects/C-Projects/Structures.c" "/home/vader/CLionProjects/C-Projects/cmake-build-debug/CMakeFiles/Projects.dir/Structures.c.o"
+  "/home/vader/CLionProjects/C-Projects/System-Calls.c" "/home/vader/CLionProjects/C-Projects/cmake-build-debug/CMakeFiles/Projects.dir/System-Calls.c.o"
+  "/home/vader/CLionProjects/C-Projects/bit-fields.c" "/home/vader/CLionProjects/C-Projects/cmake-build-debug/CMakeFiles/Projects.dir/bit-fields.c.o"
+  "/home/vader/CLionProjects/C-Projects/library.c" "/home/vader/CLionProjects/C-Projects/cmake-build-debug/CMakeFiles/Projects.dir/library.c.o"
+  "/home/vader/CLionProjects/C-Projects/whats-poppin.c" "/home/vader/CLionProjects/C-Projects/cmake-build-debug/CMakeFiles/Projects.dir/whats-poppin.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

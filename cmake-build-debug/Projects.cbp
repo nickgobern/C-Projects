@@ -8,104 +8,105 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ubuntu/CLionProjects/Projects/cmake-build-debug"/>
+				<Option working_dir="/home/vader/CLionProjects/C-Projects/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ubuntu/CLionProjects/Projects/cmake-build-debug"/>
+				<Option working_dir="/home/vader/CLionProjects/C-Projects/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ubuntu/CLionProjects/Projects/cmake-build-debug"/>
+				<Option working_dir="/home/vader/CLionProjects/C-Projects/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Projects">
-				<Option output="/home/ubuntu/CLionProjects/Projects/cmake-build-debug/libProjects.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ubuntu/CLionProjects/Projects/cmake-build-debug"/>
+				<Option output="/home/vader/CLionProjects/C-Projects/cmake-build-debug/libProjects.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vader/CLionProjects/C-Projects/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 Projects"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 Projects"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Projects/fast">
-				<Option output="/home/ubuntu/CLionProjects/Projects/cmake-build-debug/libProjects.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ubuntu/CLionProjects/Projects/cmake-build-debug"/>
+				<Option output="/home/vader/CLionProjects/C-Projects/cmake-build-debug/libProjects.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vader/CLionProjects/C-Projects/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 Projects/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/CLionProjects/Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 Projects/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vader/CLionProjects/C-Projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ubuntu/CLionProjects/Projects/Memory-Management.c">
+		<Unit filename="/home/vader/CLionProjects/C-Projects/Memory-Management.c">
 			<Option target="Projects"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/CLionProjects/Projects/Networking.c">
+		<Unit filename="/home/vader/CLionProjects/C-Projects/Networking.c">
 			<Option target="Projects"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/CLionProjects/Projects/Pointers.c">
+		<Unit filename="/home/vader/CLionProjects/C-Projects/Pointers.c">
 			<Option target="Projects"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/CLionProjects/Projects/Structures.c">
+		<Unit filename="/home/vader/CLionProjects/C-Projects/Server_From_Scratch.c">
 			<Option target="Projects"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/CLionProjects/Projects/System-Calls.c">
+		<Unit filename="/home/vader/CLionProjects/C-Projects/Structures.c">
 			<Option target="Projects"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/CLionProjects/Projects/bit-fields.c">
+		<Unit filename="/home/vader/CLionProjects/C-Projects/System-Calls.c">
 			<Option target="Projects"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/CLionProjects/Projects/library.c">
+		<Unit filename="/home/vader/CLionProjects/C-Projects/bit-fields.c">
 			<Option target="Projects"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/CLionProjects/Projects/library.h">
+		<Unit filename="/home/vader/CLionProjects/C-Projects/library.c">
 			<Option target="Projects"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/CLionProjects/Projects/whats-poppin.c">
+		<Unit filename="/home/vader/CLionProjects/C-Projects/library.h">
 			<Option target="Projects"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/CLionProjects/Projects/CMakeLists.txt">
+		<Unit filename="/home/vader/CLionProjects/C-Projects/whats-poppin.c">
+			<Option target="Projects"/>
+		</Unit>
+		<Unit filename="/home/vader/CLionProjects/C-Projects/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

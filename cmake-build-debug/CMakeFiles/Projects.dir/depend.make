@@ -3,6 +3,8 @@
 
 CMakeFiles/Projects.dir/Memory-Management.c.o: \
  ../Memory-Management.c
+CMakeFiles/Projects.dir/Networking.c.o: \
+ ../Networking.c
 CMakeFiles/Projects.dir/Pointers.c.o: \
  ../Pointers.c
 CMakeFiles/Projects.dir/Structures.c.o: \

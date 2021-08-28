@@ -57,10 +57,10 @@ RM = /snap/clion/162/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/CLionProjects/Projects
+CMAKE_SOURCE_DIR = /home/vader/CLionProjects/C-Projects
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/CLionProjects/Projects/cmake-build-debug
+CMAKE_BINARY_DIR = /home/vader/CLionProjects/C-Projects/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles /home/ubuntu/CLionProjects/Projects/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vader/CLionProjects/C-Projects/cmake-build-debug/CMakeFiles /home/vader/CLionProjects/C-Projects/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/Projects/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vader/CLionProjects/C-Projects/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -200,6 +200,30 @@ Pointers.s: Pointers.c.s
 Pointers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/Pointers.c.s
 .PHONY : Pointers.c.s
+
+Server_From_Scratch.o: Server_From_Scratch.c.o
+.PHONY : Server_From_Scratch.o
+
+# target to build an object file
+Server_From_Scratch.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/Server_From_Scratch.c.o
+.PHONY : Server_From_Scratch.c.o
+
+Server_From_Scratch.i: Server_From_Scratch.c.i
+.PHONY : Server_From_Scratch.i
+
+# target to preprocess a source file
+Server_From_Scratch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/Server_From_Scratch.c.i
+.PHONY : Server_From_Scratch.c.i
+
+Server_From_Scratch.s: Server_From_Scratch.c.s
+.PHONY : Server_From_Scratch.s
+
+# target to generate assembly for a file
+Server_From_Scratch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projects.dir/build.make CMakeFiles/Projects.dir/Server_From_Scratch.c.s
+.PHONY : Server_From_Scratch.c.s
 
 Structures.o: Structures.c.o
 .PHONY : Structures.o
@@ -339,6 +363,9 @@ help:
 	@echo "... Pointers.o"
 	@echo "... Pointers.i"
 	@echo "... Pointers.s"
+	@echo "... Server_From_Scratch.o"
+	@echo "... Server_From_Scratch.i"
+	@echo "... Server_From_Scratch.s"
 	@echo "... Structures.o"
 	@echo "... Structures.i"
 	@echo "... Structures.s"
